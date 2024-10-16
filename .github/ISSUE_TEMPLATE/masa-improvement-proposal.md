@@ -3,7 +3,7 @@ name: MASA Improvement Proposal
 about: Submit your improvement proposal
 title: "[MIP]:"
 labels: MIP, triage
-assignees: ''
+assignees: giovaroma, lacyg4, Luka-Loncar
 
 ---
 

@@ -3,7 +3,7 @@ name: Bug report
 about: File a bug report
 title: "[BUG]:"
 labels: bug, triage
-assignees: ''
+assignees: giovaroma, lacyg4, Luka-Loncar
 
 ---
 
