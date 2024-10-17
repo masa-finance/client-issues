@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository serves as a centralized system for tracking and triaging client issues across all Masa products (Subnet + Protocol).
+This repository serves as a centralized system for tracking and triaging user issues across all Masa products (Subnet + Protocol).
 
 ## Purpose
 
@@ -23,7 +23,6 @@ To report a new issue:
 2. Click on "New Issue"
 3. Choose the appropriate template:
    - Bug Report
-   - Feature Request
    - General Inquiry
 4. Fill out the template with as much detail as possible
 5. Submit the issue
@@ -59,7 +58,6 @@ We use the following label categories:
 We have three issue templates:
 
 1. Bug Report: For reporting problems or unexpected behavior
-2. Feature Request: For suggesting new features or improvements
 3. General Inquiry: For asking questions about Masa products
 
 ## Project Board
