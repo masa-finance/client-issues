@@ -1,4 +1,4 @@
-# Masa Client Issues Repository
+# Masa User Support Repository
 
 ## Overview
 
