@@ -1,6 +1,6 @@
-name: Bug Report
-description: File a bug report
-title: "[BUG]: "
+name: Report problem
+description: Report the problem you are encountering
+title: "[Problem]: "
 labels: ["bug", "triage"]
 assignees: []
 body:
