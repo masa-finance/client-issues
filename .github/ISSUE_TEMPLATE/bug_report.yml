@@ -1,6 +1,6 @@
-name: Report problem
-description: Report the problem you are encountering
-title: "[Problem]: "
+name: Request Support
+description: Please describe how we can help you.
+title: "[Request Support]: "
 labels: ["bug", "triage"]
 assignees: []
 body:
