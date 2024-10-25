@@ -20,7 +20,12 @@ body:
     id: component
     attributes:
       label: Masa Component
-      description: Which Masa component are you using?
+      description: |
+        Which Masa component are you using?
+        - Miner: Node responsible for creating and validating new blocks
+        - Validator: Node that participates in consensus and validates transactions
+        - Subnet: Component handling subnet creation and management
+        - Protocol: Core protocol implementation and networking
       options:
         - Miner
         - Validator
@@ -35,6 +40,16 @@ body:
       label: Version
       description: What version of the component are you using?
       placeholder: "e.g., 1.2.3, commit hash"
+    validations:
+      required: true
+  - type: input
+    id: peerid
+    attributes:
+      label: Peer ID
+      description: |
+        Please provide your node's Peer ID. 
+        The Peer ID is displayed in the startup logs - it appears in the Multiaddress line of the startup banner after the /p2p/
+      placeholder: "16Uiu2HAmDXWNV9RXVoRsbt9z7pFSsKS2KdpN7HHFVLdFZmS7iCvo"
     validations:
       required: true
   - type: textarea
@@ -68,11 +83,3 @@ body:
     attributes:
       label: Additional context
       description: Add any other context about the problem here.
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com/coc)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
