@@ -1,6 +1,6 @@
-name: Request Support
-description: Please describe how we can help you.
-title: "[Request Support]: "
+name: Report problem
+description: Report the problem you are encountering
+title: "[Problem]: "
 labels: ["bug", "triage"]
 assignees: []
 body:
@@ -50,6 +50,16 @@ body:
         Please provide your node's Peer ID. 
         The Peer ID is displayed in the startup logs - it appears in the Multiaddress line of the startup banner after the /p2p/
       placeholder: "16Uiu2HAmDXWNV9RXVoRsbt9z7pFSsKS2KdpN7HHFVLdFZmS7iCvo"
+    validations:
+      required: true
+  - type: dropdown
+    id: twitter-pro
+    attributes:
+      label: Twitter Pro Account
+      description: Do you have a Twitter Pro account?
+      options:
+        - Yes
+        - No
     validations:
       required: true
   - type: textarea
