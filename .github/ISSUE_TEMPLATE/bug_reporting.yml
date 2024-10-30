@@ -58,8 +58,8 @@ body:
       label: Twitter Pro Account
       description: Do you have a Twitter Pro account?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: textarea
