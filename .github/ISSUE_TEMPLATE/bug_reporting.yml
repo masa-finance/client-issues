@@ -52,6 +52,26 @@ body:
       placeholder: "16Uiu2HAmDXWNV9RXVoRsbt9z7pFSsKS2KdpN7HHFVLdFZmS7iCvo"
     validations:
       required: true
+  - type: textarea
+    id: env-file
+    attributes:
+      label: Environment File
+      description: |
+        Please copy and paste the contents of your .env file.
+        NOTE: Make sure to remove any sensitive information like private keys before sharing.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: node-logs
+    attributes:
+      label: Node Logs
+      description: |
+        Please copy and paste your node logs.
+        Tip: Include logs showing the startup process and any error messages you're encountering.
+      render: shell
+    validations:
+      required: true
   - type: dropdown
     id: twitter-pro
     attributes:
